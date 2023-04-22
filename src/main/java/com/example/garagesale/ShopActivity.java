@@ -79,10 +79,13 @@ public class ShopActivity extends AppCompatActivity {
                             int cartAmount = cart.getCartTotalPrice();
                             cart.setCartTotalPrice(cartAmount + currentPrice);
 
+                            successfulCartAddPopUp();
+
                             // Reduce quantity of products in product db
 
                             if(viewingProduct.getProductQuantity() == 1) {
                                 mProductDAO.delete(viewingProduct);
+
                             } else {
 
                                 int currQuantity = viewingProduct.getProductQuantity();
