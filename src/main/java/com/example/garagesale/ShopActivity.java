@@ -79,8 +79,6 @@ public class ShopActivity extends AppCompatActivity {
                             int cartAmount = cart.getCartTotalPrice();
                             cart.setCartTotalPrice(cartAmount + currentPrice);
 
-                            successfulCartAddPopUp();
-
                             // Reduce quantity of products in product db
 
                             if(viewingProduct.getProductQuantity() == 1) {
@@ -94,7 +92,10 @@ public class ShopActivity extends AppCompatActivity {
                         }
                     }
                 }
+
+                successfulCartAddPopUp();
             }
+
         });
         mViewCartButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -155,7 +156,7 @@ public class ShopActivity extends AppCompatActivity {
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Intent intent = MainActivity.intentFactory(getApplicationContext());
+                        Intent intent = MainLandingActivity.intentFactory(getApplicationContext(), mUserId,mIsAdmin);
                         startActivity(intent);
                     }
                 });
