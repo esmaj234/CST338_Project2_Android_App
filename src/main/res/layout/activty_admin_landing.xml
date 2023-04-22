@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/landingPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="GarageSale"
+        android:textColor="@color/purple_500"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/shopButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/shop_button"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/landingPage" />
+
+    <Button
+        android:id="@+id/manageProductsButton"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/manage_products"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shopButton" />
+
+
+    <Button
+        android:id="@+id/viewCartButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/view_cart"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/manageProductsButton" />
+
+    <Button
+        android:id="@+id/adminManageUsersButton"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/admin_manage_users"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewCartButton" />
+
+    <Button
+        android:id="@+id/adminDeleteProductButton"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/admin_delete_product"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminManageUsersButton" />
+
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminDeleteProductButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

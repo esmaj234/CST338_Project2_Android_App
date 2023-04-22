@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GarageSale</string>
+    <string name="UsernameEntry">Enter Username</string>
+    <string name="EnterPassword">Enter Password</string>
+    <string name="loginButtonText">Login Now!</string>
+    <string name="shop_button">Shop</string>
+    <string name="manage_products">Manage Products</string>
+    <string name="view_cart">View Cart</string>
+    <string name="admin_manage_users">Manage Users</string>
+    <string name="admin_delete_product">Delete Product</string>
+    <string name="logout">Logout</string>
+    <string name="garagesale">GarageSale</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="garage_sale">GarageSale</string>
+    <string name="enter_the_name_of_the_user">Enter the Name of the User:</string>
+    <string name="find">Find!</string>
+    <string name="enter_a_new_product_to_sell">Enter a new product to sell!</string>
+    <string name="here_all_prices_start_at_20">Here, all prices start at $20</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_description">Product Description</string>
+    <string name="search_database">Search Database!</string>
+    <string name="enter_the_name_of_the_product">Enter the Name of the Product</string>
+    <string name="enter_product_name">Product Name</string>
+    <string name="search_products">Search Products!</string>
+    <string name="enter_product_name_2">Enter Product Name</string>
+    <string name="checkout_now">Checkout Now!</string>
+    <string name="back">Back</string>
+    <string name="view_cart_button">View Cart</string>
+</resources>
